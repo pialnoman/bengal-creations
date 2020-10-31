@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+<link rel="stylesheet" type="text/css" href="http://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.css"/>
+<!-- Add the slick-theme.css if you want default styling -->
+<link rel="stylesheet" type="text/css" href="http://cdn.jsdelivr.net/jquery.slick/1.6.0/slick-theme.css"/>
+
+	<script src="https://use.fontawesome.com/afa983d8a3.js"></script>
+
+	<link href="css/style.css" rel="stylesheet">
+
+	<title>Bengal Creation</title>
+</head>
+<body>
+
+<section class="main">
+<!-- menu bar start-->
+<section class="nav-and-banner">
+	<nav class="navbar navbar-default navbar-fixed-top">
+		<div class="nav-margin">
+			<div class="navbar-header">
+			    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+			        <span class="sr-only">Toggle navigation</span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			    </button>
+		  		<a class="navbar-brand" href="#"><h1><img class="img-responsive" src="image/logo.png"></h1></a>
+			</div>
+		  	
+			<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			  	<ul class="nav navbar-nav navbar-right">
+				    <li class="nav-item">
+				      	<a href="#">Home<span class="sr-only">(current)</span></a>
+				    </li>
+				    <li class="divider-vertical"></li>
+				    <li class="nav-item">
+				      	<a href="#">About Us</a>
+				    </li>
+				    <li class="divider-vertical"></li>
+				    <li class="nav-item">
+				      	<a href="#">Movies</a>
+				    </li>
+				    <li class="divider-vertical"></li>
+				    <li class="nav-item">
+				      	<a href="#">Music</a>
+				    </li>
+				    <li class="divider-vertical"></li>
+				    <li class="nav-item">
+				      	<a href="#">Media</a>
+				    </li>
+				    <li class="divider-vertical"></li>
+				    <li class="nav-item">
+				      	<a href="#">Store</a>
+				    </li>
+				    <li class="nav-item">
+				    	<div class="search-icon">
+				      		<a id="show" href="#"><img src="image/search.png"></a>
+				    	</div>
+				    	<div class="search-box">
+					    	<div class="wrapper srch">
+								<input type="text" name="search">
+								<div class="close-icon"><img src="image/cross.png"></div>
+							</div>
+						</div>
+				    </li>
+			    </ul>
+			</div>
+		</div>
+	</nav>
+<!-- menu bar end-->
+
+<!-- banner start -->
+<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+
+	  	<!-- Wrapper for slides -->
+	  	<div class="carousel-inner" role="listbox">
+	    	<div class="item active">
+	      		<img src="image/banner.jpg" alt="...">
+	    	</div>
+	    	<div class="item">
+	      		<img src="image/banner.jpg" alt="...">
+	    	</div>
+	    	<div class="item">
+	      		<img src="image/banner.jpg" alt="...">
+	    	</div>
+	  	</div>
+
+	  	<!-- Controls -->
+	  	<a class="left carousel-control banner-arrow-left" href="#carousel-example-generic" data-slide="prev">
+			<i class="fa fa-angle-left"></i>
+		</a>
+		<a class="right carousel-control banner-arrow-right" href="#carousel-example-generic" data-slide="next">
+			<i class="fa fa-angle-right"></i>
+		</a>
+	</div>
+</section>
+<!-- banner end -->
+
+<!-- news slider start -->
+<section class="news-slider">
+	<div class="row">
+		<div class="col-md-12">
+			<div class="carousel slide multi-item-carousel" id="theCarousel">
+				<div class="carousel-inner">
+					<div class="item active">
+						<div class="col-md-4">
+							<img src="image/moner-manush.jpg" class="img-responsive">
+							<h4>Law of Life</h4>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi blanditiis omnis necessitatibus a facere nesciunt rerum esse ducimus accusantium minima.</p>
+							<h5>
+							<a href="#1"><b>Read more...</b></a>
+							<span>Admin | May 20</span>
+							</h5>
+						</div>
+					</div>
+					<div class="item">
+						<div class="hidden-xs col-md-4">
+							<img src="image/monpura.jpg" class="img-responsive">
+							<h4>Law of Life</h4>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi blanditiis omnis necessitatibus a facere nesciunt rerum esse ducimus accusantium minima.</p>
+							<h5>
+							<a href="#1"><b>Read more...</b></a>
+							<span>Admin | May 20</span>
+							</h5>
+						</div>
+					</div>
+				<!-- add  more items here -->
+				<!-- Example item start:  -->
+
+					<div class="item">
+						<div class="hidden-xs col-md-4">
+							<img src="image/garioala.jpg" class="img-responsive">
+							<h4>Law of Life</h4>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi blanditiis omnis necessitatibus a facere nesciunt rerum esse ducimus accusantium minima.</p>
+							<h5>
+							<a href="#1"><b>Read more...</b></a>
+							<span>Admin | May 20</span>
+							</h5>
+						</div>
+					</div>
+			  
+			  <!--  Example item end -->
+				</div>
+			</div>
+		</div>
+	</div>
+	<a class="left carousel-control news-arrow-left" href="#theCarousel" data-slide="prev">
+		<i class="fa fa-angle-left"></i>
+	</a>
+	<a class="right carousel-control news-arrow-right" href="#theCarousel" data-slide="next">
+		<i class="fa fa-angle-right"></i>
+	</a>
+</section>
+
+
+<!-- <div class="slick" data-slick='{"slidesToShow": 2, "slidesToScroll": 2}'>
+	<div>
+		<img src="image/moner-manush.jpg" class="img-responsive">
+		<h4>Law of Life</h4>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi blanditiis omnis necessitatibus a facere nesciunt rerum esse ducimus accusantium minima.</p>
+		<h5>
+		<a href="#1"><b>Read more...</b></a>
+		<span>Admin | May 20</span>
+		</h5>
+	</div>
+	<div>
+		<img src="image/monpura.jpg" class="img-responsive">
+		<h4>Law of Life</h4>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi blanditiis omnis necessitatibus a facere nesciunt rerum esse ducimus accusantium minima.</p>
+		<h5>
+		<a href="#1"><b>Read more...</b></a>
+		<span>Admin | May 20</span>
+		</h5>
+	</div>
+	<div>
+		<img src="image/garioala.jpg" class="img-responsive">
+		<h4>Law of Life</h4>
+		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi blanditiis omnis necessitatibus a facere nesciunt rerum esse ducimus accusantium minima.</p>
+		<h5>
+		<a href="#1"><b>Read more...</b></a>
+		<span>Admin | May 20</span>
+		</h5>
+	</div>
+</div> -->
+
+
+<!-- news slider end -->
+<hr>
+<!-- video Start -->
+<section class="videos">
+	<div class="video">
+		<div class="play-button-back">
+			<img id="play-btn" src="image/play-white.png">
+			<img id="play-btn-hover" src="image/play-white-hover.png">
+		</div>
+		<iframe id="play-video" width="100%" height="500" src="" 
+			frameborder="0" allowfullscreen></iframe>
+	</div>
+
+	<div class="video-slider">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="carousel slide multi-item-carousel" id="videoCarousel">
+					<div class="carousel-inner">
+						<div class="item video-thumb active" data-url="https://www.youtube.com/embed/8qd3C4k8bBI">
+							<div class="col-xs-4">
+								<img src="image/moner-manush.jpg" class="img-responsive">
+							</div>
+						</div>
+						<div class="item video-thumb" data-url="https://www.youtube.com/embed/8qd3C4k8bBI">
+							<div class="col-xs-4">
+								<img src="image/monpura.jpg" class="img-responsive">
+							</div>
+						</div>
+					<!-- add  more item video-thumbs here -->
+					<!-- Example item video-thumb start:  -->
+
+						<div class="item video-thumb" data-url="https://www.youtube.com/embed/8qd3C4k8bBI">
+							<div class="col-xs-4">
+								<img src="image/garioala.jpg" class="img-responsive">
+							</div>
+						</div>
+				  
+				  <!--  Example item video-thumb end -->
+					</div>
+					<a class="left carousel-control news-arrow-left" href="#videoCarousel" data-slide="prev">
+						<i class="fa fa-angle-left"></i>
+					</a>
+					<a class="right carousel-control news-arrow-right" href="#videoCarousel" data-slide="next">
+						<i class="fa fa-angle-right"></i>
+					</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+
+<!-- <div class="your-class">
+<div><img src="image/monpura.jpg" class="img-responsive"></div>
+<div><img src="image/monpura.jpg" class="img-responsive"></div>
+<div><img src="image/monpura.jpg" class="img-responsive"></div>
+</div> -->
+
+<!-- video end -->
+<hr>
+
+<section class = "about
+">
+	<h4>ABOUT US</h4>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo, dolorem ratione similique rem officia ea. Asperiores, impedit necessitatibus nisi, ad veniam maiores alias similique mollitia possimus vitae, numquam? Consequuntur qui necessitatibus, nulla provident ratione amet distinctio nisi saepe nihil libero? Corporis amet, sint perferendis. Illum quibusdam molestiae delectus recusandae praesentium.</p>
+	<br>
+	<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo, dolorem ratione similique rem officia ea. Asperiores, impedit necessitatibus nisi, ad veniam maiores alias similique mollitia possimus vitae, numquam? Consequuntur qui necessitatibus, nulla provident ratione amet distinctio nisi saepe nihil libero? Corporis amet, sint perferendis. Illum quibusdam molestiae delectus recusandae praesentium.</p>
+	<br>
+	<a href="#">Read more...</a>
+</section>
+
+<hr>
+
+<section class="blog">
+	<div class="bloger">
+		<div class="row">
+			<div class="col-xs-12 col-sm-4 col-md-3">
+				<img src="image/production-icon.png">
+				<h4>PRODUCTION</h4>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vel odio vel felis placerat pharetra ut vitae felis. 
+				</p>
+				<a href="#">Read more...</a>
+			</div>
+			<div class="col-xs-12 col-sm-4 col-md-3">
+				<img src="image/distribution-icon.png">
+				<h4>DISTRIBUTION</h4>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vel odio vel felis placerat pharetra ut vitae felis. 
+				</p>
+				<a href="#">Read more...</a>
+			</div>
+			<div class="col-xs-12 col-sm-4 col-md-3">
+				<img src="image/Music-icon.png">
+				<h4>MUSIC</h4>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vel odio vel felis placerat pharetra ut vitae felis. 
+				</p>
+				<a href="#">Read more...</a>
+			</div>
+			<div class="col-xs-12 col-sm-4 col-md-3">
+				<img src="image/media-icon.png">
+				<h4>MEDIA</h4>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque vel odio vel felis placerat pharetra ut vitae felis. 
+				</p>
+				<a href="#">Read more...</a>
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="partner">
+	<div id="myCarousel" class="carousel slide" data-ride="carousel">
+		<!-- Wrapper for slides -->
+		<div class="carousel-inner logo" role="listbox">
+			<div class="item active">
+				<img src="image/partner-logo.png" alt="Chania">
+			</div>
+
+			<div class="item">
+				<img src="image/partner-logo2.png" alt="Chania">
+			</div>
+
+			<div class="item">
+			<img src="image/partner-logo3.png" alt="Chania">
+			</div>
+
+			<div class="item">
+				<img src="image/partner-logo4.png" alt="Chania">
+			</div>
+		</div>
+	</div>
+</section>
+
+<section class="contact">
+	<div class="row">
+		<div class="col-xs-12 col-sm-12 col-md-6">
+			<form>
+				<div class="form-group">
+					<div class="fifty-width" id="name">
+						<label for="Name">Name*</label>
+							<input class="form-control" type="text" name="name">
+					</div>
+					<div class="fifty-width">
+						<label for="E-mail Address">E-mail Address*</label>
+							<input class="form-control" type="email" name="email">
+					</div>
+					<label for="Subject">Subject*</label>
+						<input class="form-control" type="text" name="subject">
+					<div class="message">
+						<label for="Message">Message*</label>
+							<input class="form-control" type="text" name="message">
+					</div>
+					<br><br>
+					<input class="btn btn-default" type="button" name="submit" value="submit">
+				</div>
+			</form>
+		</div>
+		<div class="col-xs-12 col-sm-12 col-md-6 address-left-pad">
+			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt aliquid voluptate, nihil dolores nesciunt ea molestiae cumque obcaecati harum suscipit.</p><br>
+
+			<p><i class="fa fa-home" aria-hidden="true"></i><b>Address:</b> abc, xyz-1234</p><br>
+			<p><i class="fa fa-phone" aria-hidden="true"></i><b>Phone:</b> +00 123789456</p><br>
+			<p><i class="fa fa-envelope" aria-hidden="true"></i><b>Email:</b> abc@example.com</p><br>
+			<p><i class="fa fa-globe" aria-hidden="true"></i><b>Web:</b> abc.com</p>
+		</div>
+	</div>
+</section>
+
+<section class="map">
+	<iframe width="100%" height="350" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?key=AIzaSyCMZdrMm184mSgX8VY1LECptZG78HfAPno&q=UYS System Ltd, Road No 19, Dhaka" allowfullscreen>
+	</iframe>
+</section>
+
+<footer>
+	<div class="row">
+		<div class="col-xs-12 col-sm-12 col-md-6">
+			<table>
+				<tr>
+					<td><a href="">Home</a></td>
+					<td><a href="">About Us</a></td>
+					<td><a href="">Distribution</a></td>
+					<td><a href="">Awards</a></td>
+				</tr>
+				<tr>
+					<td><a href="">Download</a></td>                                      
+					<td><a href="">Videos</a></td>
+					<td><a href="">Ringtones</a></td>
+					<td><a href="">Wallpaper</a></td>
+				</tr>
+				<tr>
+					<td><a href="">Mobile</a></td>
+					<td><a href="">Terms & Conditions</a></td>
+					<td><a href="">Career</a></td>
+				</tr>
+			</table>
+		</div>
+		<div class="col-xs-12 col-sm-12 col-md-6">
+			<div class="social-media">
+				<a href="#"><img src="image/facebook.png"></a>
+				<a href="#"><img src="image/youtube.png"></a>
+				<a href="#"><img src="image/whatsapp.png"></a>
+				<a href="#"><img src="image/viber.png"></a>
+				<a href="#"><img src="image/instagram.png"></a>
+				<a href="#"><img src="image/shareIt.png"></a>
+			</div>
+			<div class="social-media-hover">
+				<a href="#"><img src="image/facebook-hover.png"></a>
+				<a href="#"><img src="image/youtube-hover.png"></a>
+				<a href="#"><img src="image/whatsapp-hover.png"></a>
+				<a href="#"><img src="image/viber-hover.png"></a>
+				<a href="#"><img src="image/instagram-hover.png"></a>
+				<a href="#"><img src="image/shareIt-hover.png"></a>
+			</div>
+
+			<p>© 2016 All rights reserved.</p>	
+		</div>
+	</div>
+</footer>
+</section>
+
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+	<!-- Include all compiled plugins (below), or include individual files as needed -->
+	<script src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="http://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js"></script>
+
+	<script src="js/custom.js"></script>
+</body>
+</html>
